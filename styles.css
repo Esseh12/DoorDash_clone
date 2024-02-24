@@ -4,7 +4,10 @@ body{
 
 }
 .background_container{
-    background-image: url('https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png');
+    background-image: url('./imgs/doordash.png');
+    background-size: cover;
+    background-attachment: fixed;
+    border: 1px solid red;
 }
 nav {
     overflow: hidden;
