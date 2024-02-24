@@ -125,3 +125,45 @@ top: 160px;
 .container_2_links span{
     margin-left: 10px;
 }
+.container_3{
+    position: relative;
+    top: 880px;
+}
+.container_3_img1{
+    position: absolute;
+    left: 45%;
+    width: 50%;
+}
+.container_3_text{
+font-size: 20px;
+position: absolute;
+top: 100px;
+left: 5%;
+}
+.container_3_text button{
+  border: 1px solid orangered;
+  border-radius: 20px;
+  width: 40%;
+  padding: 10px;
+  background-color: rgb(255, 64, 0);
+  color: white;
+}
+.container_4 {
+    position: relative;
+    top: 1450px;
+}
+.container_4_img1 {
+    position: absolute;
+    top: 40px;
+    width: 55%;
+    left: 50px;
+    background-color: #FFF0F5;
+}
+
+.container_4_text {
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+    left: 65%;
+    background-color: #FFF0F5;
+}
