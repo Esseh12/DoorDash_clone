@@ -6,8 +6,56 @@ body{
 .background_container{
     background-image: url('./imgs/doordash.png');
     background-size: cover;
+    height: 600px;
+    width: 100%;
     background-attachment: fixed;
-    border: 1px solid red;
+    position: static;
+}
+.heading1{
+text-align: center;
+color: white;
+position: relative;
+top: 200px;
+}
+.search_bar{
+    max-width: 400px;
+    position: relative;
+    margin: auto;
+}
+.search_bar input{
+    position: relative;
+    top: 220px;
+    padding: 15px;
+    padding-right: 40px;
+    width: 350px;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+}
+.fa-location-dot{
+    position: absolute;
+    top: 236px;
+    left: 30px;
+}
+.fa-arrow-right{
+    position: absolute;
+    top: 230px;
+    right: 25px;
+    border: 1px solid orangered;
+    border-radius: 50%;
+    color: white;
+    background-color: orangered;
+    padding: 4.5px;
+}
+.saved_user{
+    position: relative;
+    top: 260px;
+    left: 30px;
+}
+.saved_user a {
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+
 }
 nav {
     overflow: hidden;
@@ -62,5 +110,5 @@ nav ul li a {
 
 .container_2_img{
     position: relative;
-    top: 150px;
+    top: 450px;
 }
