@@ -3,6 +3,9 @@ body{
     padding: 0;
 
 }
+.background_container{
+    background-image: url('https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png');
+}
 nav {
     overflow: hidden;
     background-color: white;
@@ -16,8 +19,8 @@ nav {
 .nav_logo {
     float: left;
     margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 nav ul {
@@ -29,21 +32,23 @@ nav ul {
 
 nav ul li {
     float: right;
-    margin-top: 20px;
-        margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 nav ul li a {
    text-decoration: none;
    border: 1px solid #FF2000;
    border-radius: 30px;
    margin-left: 20px;
-   padding: 10px;
    color: white;
    font-family:  "Padauk", sans-serif;
    font-weight: 700;
 
 }
 .sign_in{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
     background-color: #FF2000;
 }
 .sign_up{
@@ -51,8 +56,8 @@ nav ul li a {
     color: black;
     padding-right: 40px;
 } 
-.scooter{
+
+.container_2_img{
     position: relative;
-    top: 190px;
-    left: 100px;
+    top: 150px;
 }
