@@ -232,8 +232,8 @@ left: 5%;
 }
 .container7_btn{
     border: 1px solid orangered;
-        border-radius: 20px;
-        width: 20%;
+    border-radius: 20px;
+    width: 20%;
         padding: 10px;
         background-color: rgb(255, 64, 0);
         color: white;
@@ -266,4 +266,43 @@ left: 5%;
 
 .d {
     width: 470px;
+}
+.container_8{
+    position: relative;
+    top: 1300px;
+}
+.container_8 h1{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px; 
+}
+.container_8_img1{
+    width: 45%;
+    position: absolute;
+    top: 280px;
+    z-index: 1;
+    left: 45%;
+}
+.container_8_text{
+    position: absolute;
+    top: 350px;
+    left: 80px;
+    font-size: 20px;
+}
+.container_9{
+    position: relative;
+    top: 1800px;
+    background-color: RGB(255, 242, 255);
+    height: 550px;
+}
+.container_9_img1{
+    position: absolute;
+    width: 45%;
+    left: 80px;
+    top: 120px;
+}
+.container_9_text{
+    position: absolute;
+    left: 60%;
+    top: 150px;
 }
