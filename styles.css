@@ -92,7 +92,8 @@ top: 160px;
 }
 .container_2 {
     position: relative;
-    top: 400px;
+    top: 500px;
+    height: 130px;
 }
 
 .svg_1 {
@@ -100,6 +101,7 @@ top: 160px;
     width: 30%;
     text-align: center;
     left: 0;
+    top: 50px;
 }
 
 .svg_2 {
@@ -107,13 +109,13 @@ top: 160px;
     width: 30%;
     text-align: center;
     left: 35%;
-
+    top: 50px;
 }
 
 .svg_3 {
     position: absolute;
     width: 30%;
-    top: 30px;
+    top: 80px;
     text-align: center;
     left: 70%;
 }
@@ -192,23 +194,76 @@ left: 5%;
 }
 .container_6{
     position: relative;
-    top: 1350px;
+    top: 1000px;
+    height: 150px;
 }
 .container_6_img1{
     width: 45%;
     position: absolute;
-    left: 45%;
+    top: 430px;
+    z-index: 1;
+    left: 50%;
 }
 .container_6_text{
     font-size: 20px;
     position: absolute;
-    top: 150px;
-    left: 5%;
+    top: 500px;
+    left: 10%;
 }
 .container_7{
     position: relative;
-    top: 1850px;
+    top: 1650px;
+    background-color: RGB(255, 242, 255);
+    height: 1500px;
+    font-size: 16px; 
+}
+.container_7_h1{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 .container_7_img1{
-    width: 10%;
+    position: absolute;
+    left: 180px;
+    top: 270px;
+}
+.a{
+    width: 45%;
+}
+.container7_btn{
+    border: 1px solid orangered;
+        border-radius: 20px;
+        width: 20%;
+        padding: 10px;
+        background-color: rgb(255, 64, 0);
+        color: white;
+
+}
+.container_7_img2 {
+    position: absolute;
+    left: 55%;
+    top: 270px;
+}
+
+.b {
+    width: 85%;
+    height: 350px;
+}
+.container_7_img3 {
+    position: absolute;
+    top: 840px;
+    left: 180px;
+}
+
+.c {
+    width: 80%;
+}
+.container_7_img4 {
+    position: absolute;
+    top: 840px;
+    left: 55%;
+}
+
+.d {
+    width: 470px;
 }
