@@ -8,7 +8,7 @@ body{
     background-size: cover;
     height: 600px;
     width: 100%;
-    position: absolute;
+    position:absolute;
 }
 .top_logo{
     width: 15%;
@@ -269,25 +269,24 @@ left: 5%;
 }
 .container_8{
     position: relative;
-    top: 1300px;
+    top: 1650px;
+    height: 320px;
+}
+.container_8_text {
+    position: absolute;
+    top: 190px;
+    left: 150px;
+    font-size: 20px;
 }
 .container_8 h1{
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 40px; 
 }
 .container_8_img1{
-    width: 45%;
+    width: 35%;
     position: absolute;
-    top: 280px;
+    top: 150px;
     z-index: 1;
-    left: 45%;
-}
-.container_8_text{
-    position: absolute;
-    top: 350px;
-    left: 80px;
-    font-size: 20px;
+    left: 55%;
 }
 .container_9{
     position: relative;
@@ -302,7 +301,159 @@ left: 5%;
     top: 120px;
 }
 .container_9_text{
+    font-size: 20px;
     position: absolute;
     left: 60%;
     top: 150px;
+}
+.footer_1{
+    position: relative;
+    top: 1800px;
+}
+.footer_1_h1{
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+.top_line h3{
+    float: left;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 200px;
+}
+.h3_1 {
+    margin-left: 290px;
+}
+table {
+    width: 100%;
+    position: absolute;
+    top: 70px;
+}
+.footer-table {
+    position: absolute;
+    top: 125px;
+    left: 140px;
+    width: 80%;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+td:hover {
+    background-color: rgb(247, 241, 241);
+}
+.footer_2{
+  position: relative;
+  top: 2050px;
+  height: 1050px;
+  background-color: black;
+}
+
+.footer_2_content{
+  position: absolute;
+  width: 70%;
+}
+
+.table2{
+  position: absolute;
+  left: 190px;
+  width: 80%;
+  color: #cecaca;
+}
+
+.table2 th{
+  color: #ffffff;
+}
+
+.table2 td{
+  font-size: 14px;
+  text-align: left;
+}
+
+.table2 th{
+  text-align: left;
+}
+.table2 td:hover{
+  color: #ffffff;
+  background-color: black;
+  text-decoration: underline;
+}
+
+.table3{
+  position: absolute;
+  top: 260px;
+  width: 69%;
+}
+
+.appstore{
+  position: absolute;
+  top: 80px;
+  left: 700px;
+  width: 100px;
+  height: 100px;
+}
+
+.appstore img{
+  width: 100%;
+  height: 40%;
+}
+.appstore1 {
+    position: absolute;
+    top: 140px;
+    left: 700px;
+    width: 140px;
+    height: 100px;
+}
+.appstore1 img {
+    width: 100%;
+    height: 40%;
+}
+.copyright{
+  position: absolute;
+  top: 555px;
+  left: 68px;
+  display: inline-block;
+  width: auto;
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul li{
+  font-size: 15px;
+  font-weight: 400;
+  float: left;
+  padding-right: 14px;
+}
+
+.form{
+  position: absolute;
+  top: 2px;
+  left: 820px;
+}
+
+select{
+  height: 33px;
+  width: 120px;
+  border: none;
+  border-radius: 20px;
+}
+
+.media-icons{
+  position: absolute;
+  top: 2px;
+  left: 955px;
+  display: inline-block;
+  width: 130px;
+
+}
+
+.media-icons span{
+  float: left;
+  padding: 12px;
 }
